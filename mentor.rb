@@ -3,17 +3,19 @@ class Mentor
   def initialize(name)
     @name = name
   end
- def job
+  def job
     puts "#{@name}です。私は現役のITプロフェッショナルです。"
- end
+  end
+ 
 end
 
 class RailsMentor < Mentor
-def job
-  puts "#{@name}です。私はRUbyとRailsでwebアプリケーションを作ります。"
+    
+  def job
+  puts "#{@name}です。私はRubyとRailsでwebアプリケーションを作ります。"
   end
+  
 end
-
 
 #インスタンスの生成
  kirameki = Mentor.new("煌木")
