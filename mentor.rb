@@ -9,11 +9,7 @@ class Mentor
 end
 
 class RailsMentor < Mentor
-  def initialize(name)
-    @name = name
-  end
-
-  def job
+def job
   puts "#{@name}です。私はRUbyとRailsでwebアプリケーションを作ります。"
   end
 end
